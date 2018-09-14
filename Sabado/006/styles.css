@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  padding-top: 60px;
+}
+
+img {
+  width: 100px;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#section-intro {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  margin: 0;
+  height: unset;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+#titulo-da-pagina {
+  font-size: 20px;
+  color: blue;
+  margin: 0;
+}
+
+.introducao {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+
+.texto-da-section {
+  color: white;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#primeira-section {
+  background-color: darkred;
+  border-color: pink;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#segunda-section {
+  background-color: darkblue;
+  border: 3px dotted lightblue;
+  padding: 25px;
+  display: inline-block;
+  position: relative;
+}
+
+#segunda-section button {
+  background-color: white;
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 5px;
+}
+
+#terceira-section {
+  background-color: darkgreen;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#quarta-section {
+  background-color: orange;
+}
+
+#quarta-section p {
+  font-size: 2.5rem;
+}
