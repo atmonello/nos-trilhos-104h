@@ -107,9 +107,10 @@ ___
     - None
     - *Flex
       - justify-content
-        - space-around: distribui igualmente com metade dos espaços iguais dos lados
-        - space-between: distribui pelo container todo
-        - space-evenly: distribui pelo container com espaços dos lados
+        - space-around: Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.
+        - space-between: Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.
+        - space-evenly: distribui pelo container com espaços dos lados iguais aos do meio
+        - center: alinha tudo no centro
       - align-items
       - flex-direction
   - Position
