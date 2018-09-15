@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+button {
+  padding: 20px 40px;
+  border-radius: 35px;
+  color: white;
+  font-size: 30px;
+  border: 0;
+}
+
+.pagina {
+  display: none;
+  height: 100vh;
+  background-color: black;
+}
+
+#pergunta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#sabre {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lamina {
+  height: 350px;
+  width: 15px;
+  border-radius: 10px 10px 0 0;
+  background-color: red;
+}
+
+.punho {
+  width: 15px;
+  height: 60px;
+  background: linear-gradient(90deg, gray, darkslategray, gra);
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jedi {
+  background-color: green;
+}
+
+.sith {
+  background-color: red;
+}
