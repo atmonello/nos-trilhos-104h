@@ -107,6 +107,9 @@ ___
     - None
     - *Flex
       - justify-content
+        - space-around: distribui igualmente com metade dos espaços iguais dos lados
+        - space-between: distribui pelo container todo
+        - space-evenly: distribui pelo container com espaços dos lados
       - align-items
       - flex-direction
   - Position
